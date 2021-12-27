@@ -11,111 +11,117 @@
     <!--CSS-->
     <link href="./css/styles.css" rel="stylesheet" type="text/css">
     <!--Javascript-->
-    <script src='script.js' type='text/javascript'></script>
+    <script src='./js/script.js' type='text/javascript'></script>
+
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid">
 
 
-                <div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <select>
-                                 <option value="ENGLISH">EN 🇺🇸</option>
-                                <option value="PORTUGUESE">PT 🇧🇷</option>
-                                <option value="ITALIAN">IT 🇮🇹</option>
-                        </select>
-                    </ul>
+    <nav id="navbar" class="navbar">
+        <div class="container-fluid">
+            <ul class="navbar-nav  flex-row">
 
-                </div>
-            </div>
-        </nav>
-    </header>
+                <li class="nav-item"><a href="#home">Home </a></li>
+                &nbsp;
+                <li class="mx-2 nav-item"><a href="#About">About</a></li>
+                &nbsp;
+                <li class="mx-2 nav-item"><a href="#Skills">Skills</a></li>
+                &nbsp;
+                <li class="mx-2 nav-item"><a href="#Projects">Projects</a></li>
+                &nbsp;
+                <!-- <li class="mx-2 nav-item"><a href="#Contact">Contact</a></li>-->
+            </ul>
+            <select>
+    <option value="ENGLISH">EN</option>
+    <option value="PORTUGUESE">PT</option>
+    <option value="ITALIAN">IT</option>
+</select>
+        </div>
+    </nav>
 
-    <section id="Home">
-        <h1 id="Hello">Hello! I'm Valentina</h1>
-        <p>Programmer and developer since 2021. My main languages are <span>PHP</span> and <span>Java</span> and I love Front-End development. I'm also learning <span>Python</span> and <span>C#</span>. </p>
 
+    <section id="home">
+        <h1 class="titles">Hello! I'm Valentina</h1>
+        <p>Programmer and developer since 2021. My main languages are <span>P</span><span>H</span><span>P</span> and <span>J</span><span>a</span><span>v</span><span>a</span> and I love Front-End development. I'm also learning <span>P</span><span>y</span><span>t</span><span>h</span><span>o</span><span>n</span>            and
+            <span>C#</span>.
+        </p>
+        <button class="btn-outline-primary btn btn-lg "><img src="img/resumepdf.svg"> Resume</button>
     </section>
+
 
     <section id="About">
-        <h1>About me!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec urna velit, consectetur at lectus ut, condimentum ultrices felis. Sed nec ullamcorper nunc. Donec mollis enim in semper vulputate. Morbi malesuada mauris ut elit vulputate faucibus.
-            Praesent libero velit, vulputate ut nisi eu, egestas tempor ligula. Vestibulum id ligula sapien. Phasellus malesuada ultrices diam. Phasellus rutrum commodo sagittis.</p>
+        <h1 class="titles">About me!</h1>
+
         <br />
+        <div class="row">
+            <div class="content ">
+                <h1 class="titles">Brazilian High School</h1>
+            </div>
+            <div class="content">
+                <h1 class="titles">System Development - Tech Course</h1>
+            </div>
+        </div>
     </section>
+    <br />
     <section id="Skills">
-        <h1>Skills</h1>
-        <div class="row md:flex md:flex-wrap" style="justify-content: space-between; width: 100%;">
-            <div class=" skills" style="margin-left: 80px;">
-                <h1>FRONT-END</h1>
+        <h1 class="titles">Skills</h1>
+        <div class="row md:flex md:flex-wrap">
+            <div class="content">
+                <h1 class="titles">FRONT-END</h1>
+
 
             </div>
 
 
-            <div class="skills ">
-                <h1>BACK-END</h1>
+            <div class="content">
+                <h1 class="titles">BACK-END</h1>
 
             </div>
 
 
-            <div class=" skills ">
-                <h1>OTHERS</h1>
+            <div class="content">
+                <h1 class="titles">OTHERS</h1>
 
             </div>
 
 
         </div>
     </section>
-    <section id="Projects ">
-        <h1>Projects</h1>
-        <ul>
-            <li>
-                <div>
+    <br />
+    <section id="Projects">
+        <h1 class="titles">Projects</h1>
+        <p>Some of the projects made in my course and others from the internet.</p>
 
-                </div>
-            </li>
-            <li>
-                <div>
+        <div class="container row">
 
-                </div>
-            </li>
-            <li>
-                <div>
+            <div class="content col-sm-4">
+                <h1 class="titles">A</h1>
 
-                </div>
-            </li>
-            <li>
-                <div>
+            </div>
 
-                </div>
-            </li>
-        </ul>
-    </section>
-    <section id="Contact ">
-        <h1> Send me a message!</h1>
-        <div class="mb-2">
-            <label for="txtemail" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1">
+
+            <div class="content col-sm-4">
+                <h1 class="titles">BBB</h1>
+
+            </div>
+
         </div>
-        <div class="mb-2">
-            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <br /><br />
+        <div class="container row">
+            <div class="content col-sm-4">
+                <h1 class="titles">CCC</h1>
+
+            </div>
+            <div class="content col-sm-4">
+                <h1 class="titles">SSS</h1>
+
+            </div>
+
         </div>
+
+        <footer style="background-color: #444646;">
+            Developed by <a href="#home">Valen</a></footer>
     </section>
 
 

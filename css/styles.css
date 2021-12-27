@@ -20,16 +20,113 @@
     }
 }*/
 
-.skills {
-    position: static;
-    width: 370px;
-    height: 504px;
-    left: 58px;
-    top: 316px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+#home {
+    padding-top: 5rem;
 }
 
-ul {
-    outline: none;
+#navbar {
+    background-color: #030303;
+    /* Black background color */
+    position: fixed;
+    /* Make it stick/fixed */
+    top: 0;
+    /* Stay on top */
+    width: 100%;
+    /* Full width */
+    transition: top 0.3s;
+    /* Transition effect when sliding down (and up) */
+}
+
+span,
+a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+span::before,
+a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+span:hover::before,
+a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.content {
+    /* Rectangle 4 */
+    position: static;
+    width: 383px;
+    height: 504px;
+    left: 524px;
+    top: 316px;
+    background: #0d0c0a;
+    transition: 0.4s ease-out 0s;
+}
+
+.content:hover {
+    border: 1px solid rgba(255, 255, 255, 0.229);
+}
+
+body {
+    background: #030303;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+select {
+    background: #030303;
+    color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.titles {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 50px;
+    max-width: 100%;
+}
+
+p {
+    width: 800px;
+}
+
+@keyframes slide {
+    to {
+        color: purple;
+    }
+}
+
+span {
+    color: #0d6efd;
+}
+
+span:hover {
+    animation: slide .2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+.chart footer div {
+    background-color: darkgreen;
+    transition: width 1.3 ease-out;
 }

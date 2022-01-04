@@ -22,15 +22,13 @@
         <div class="container-fluid">
             <ul class="navbar-nav  flex-row">
 
-                <li class="nav-item"><a href="#home">Home </a></li>
+                <li class="nav-item"><a class="navbar_link" href="#home">Home </a></li>
+                &nbsp; &nbsp;
+                <li class="mx-2 nav-item"><a class="navbar_link" href="#Skills">Skills</a></li>
                 &nbsp;
-                <li class="mx-2 nav-item"><a href="#About">About</a></li>
+                <li class="mx-2 nav-item"><a class="navbar_link" href="#Projects">Projects</a></li>
                 &nbsp;
-                <li class="mx-2 nav-item"><a href="#Skills">Skills</a></li>
-                &nbsp;
-                <li class="mx-2 nav-item"><a href="#Projects">Projects</a></li>
-                &nbsp;
-                <!-- <li class="mx-2 nav-item"><a href="#Contact">Contact</a></li>-->
+                <li class="mx-2 nav-item"><a class="navbar_link" href="#About">About me</a></li>
             </ul>
             <select>
     <option value="ENGLISH">EN</option>
@@ -42,45 +40,36 @@
 
 
     <section id="home">
-        <h1 class="titles">Hello! I'm Valentina</h1>
-        <p>Programmer and developer since 2021. My main languages are <span>P</span><span>H</span><span>P</span> and <span>J</span><span>a</span><span>v</span><span>a</span> and I love Front-End development. I'm also learning <span>P</span><span>y</span><span>t</span><span>h</span><span>o</span><span>n</span>            and
-            <span>C#</span>.
-        </p>
-        <button class="btn-outline-primary btn btn-lg "><img src="img/resumepdf.svg"> Resume</button>
+        <div>
+            <div>
+                <h1 class="titles">Hello! I'm Valentina</h1>
+                <p id='intro'>Programmer and developer since 2021. My main languages are <span id="php">PHP</span> and <span id="java">Java</span>. I'm also learning <span id="python">Python</span> and
+                    <span id="csharp">C#</span>.
+                </p>
+            </div>
+            <button class="btn-outline-warning btn btn-lg "><img src="img/resumepdf.svg"> Resume</button>
+
     </section>
 
 
-    <section id="About">
-        <h1 class="titles">About me!</h1>
-
-        <br />
-        <div class="row">
-            <div class="content ">
-                <h1 class="titles">Brazilian High School</h1>
-            </div>
-            <div class="content">
-                <h1 class="titles">System Development - Tech Course</h1>
-            </div>
-        </div>
-    </section>
     <br />
     <section id="Skills">
-        <h1 class="titles">Skills</h1>
-        <div class="row md:flex md:flex-wrap">
-            <div class="content">
+        <h1 class="titles reveal">Skills</h1>
+        <div class="grid">
+            <div class="content reveal">
                 <h1 class="titles">FRONT-END</h1>
 
 
             </div>
 
 
-            <div class="content">
+            <div class="content reveal">
                 <h1 class="titles">BACK-END</h1>
 
             </div>
 
 
-            <div class="content">
+            <div class="content reveal">
                 <h1 class="titles">OTHERS</h1>
 
             </div>
@@ -90,38 +79,51 @@
     </section>
     <br />
     <section id="Projects">
-        <h1 class="titles">Projects</h1>
-        <p>Some of the projects made in my course and others from the internet.</p>
+        <h1 class="titles reveal">Projects</h1>
+        <p class="reveal">Some of the projects made in my course and others from the internet.</p>
 
-        <div class="container row">
+        <div class="grid ">
+            <a href="https://github.com/valencprado/LojaPHP" target="_blank" class="projects_links">
+                <div class="projects reveal">
+                    <h1 class="titles">PHP Store</h1>
 
-            <div class="content col-sm-4">
-                <h1 class="titles">A</h1>
+                </div>
+            </a>
+            <a href="https://github.com/valencprado/pw-js-calculadora" target="_blank" class="projects_links">
+                <div class=" projects reveal">
+                    <h1 class="titles">Calculator</h1>
 
-            </div>
+                </div>
+            </a>
 
+            <a href="https://github.com/valencprado/pw-js-calculadora" target="_blank" class="projects_links">
+                <div class="projects reveal">
+                    <h1 class="titles">Java CRUD</h1>
 
-            <div class="content col-sm-4">
-                <h1 class="titles">BBB</h1>
+                </div>
+            </a>
+            <a href="https://github.com/valencprado/python-exercises" target="_blank" class="projects_links">
+                <div class="projects reveal">
+                    <h1 class="titles projects_links">Python Exercises</h1>
 
-            </div>
-
+                </div>
+            </a>
         </div>
-        <br /><br />
-        <div class="container row">
-            <div class="content col-sm-4">
-                <h1 class="titles">CCC</h1>
 
-            </div>
-            <div class="content col-sm-4">
-                <h1 class="titles">SSS</h1>
+        <section id="About">
+            <h1 class="titles reveal">About me!</h1>
 
-            </div>
+            <br />
+            <!--<div class="row">
+                <div class="content ">
+                    <h1 class="titles">Brazilian High School</h1>
+                </div>
+                <div class="content">
+                    <h1 class="titles">System Development - Tech Course</h1>
+                </div>
+            </div>-->
+        </section>
 
-        </div>
-
-        <footer style="background-color: #444646;">
-            Developed by <a href="#home">Valen</a></footer>
     </section>
 
 

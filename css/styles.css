@@ -64,6 +64,10 @@
     transform: scaleX(1);
 }
 
+.navbar_link:hover {
+    color: #ffc107;
+}
+
 .content {
     /* Rectangle 4 */
     position: static;
@@ -80,7 +84,7 @@
 }
 
 body {
-    background: #030303;
+    background: #030303fc;
     color: #FFFFFF;
     margin: 0;
 }
@@ -96,23 +100,17 @@ select {
     color: #FFF;
 }
 
-p {
-    width: 800px;
-}
-
-.chart footer div {
-    background-color: darkgreen;
-    transition: width 1.3 ease-out;
-}
-
 #intro {
     font-size: 20px;
     max-width: 100%;
+    width: 800px;
 }
 
 .projects {
-    width: 450px;
-    height: 272px;
+    width: 454px;
+    height: 404px;
+    left: 524px;
+    top: 316px;
     background: #0d0c0a;
 }
 
@@ -123,7 +121,7 @@ p {
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: space-around;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -144,11 +142,11 @@ p {
     opacity: 1;
 }
 
-span {
+.intro {
     color: #ffc107;
 }
 
-span:hover {
+.intro:hover {
     font-weight: bolder;
 }
 
@@ -170,4 +168,142 @@ span:hover {
 
 .projects_links {
     text-decoration: none;
+}
+
+.footer_link {
+    position: relative;
+    color: #4d5b96;
+    text-decoration: none;
+}
+
+.footer_link:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.footer_link:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.footer_link:hover {
+    color: #ffc107;
+}
+
+footer {
+    background-color: rgb(30, 29, 29);
+}
+
+.container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects_text {
+    color: rgb(176, 175, 175);
+    text-align: center;
+}
+
+.skills_titles {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.percentage {
+    margin-left: 10px;
+}
+
+.bar,
+.inner_percentage {
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.bar {
+    background-color: gray;
+}
+
+.per_html {
+    display: block;
+    background-color: #f15930;
+    width: 90%;
+}
+
+.per_css {
+    display: block;
+    background-color: #0e7dc2;
+    width: 80%;
+}
+
+.per_javascript {
+    display: block;
+    background-color: #f68133;
+    width: 75%;
+}
+
+.per_bootstrap {
+    display: block;
+    background-color: #7611f5;
+    width: 90%;
+}
+
+.per_php {
+    display: block;
+    background-color: #4d5b96;
+    width: 90%;
+}
+
+.per_csharp {
+    display: block;
+    background-color: #631f75;
+    width: 90%;
+}
+
+.per_java {
+    display: block;
+    background-color: #e26d00;
+    width: 90%;
+}
+
+.per_python {
+    display: block;
+    background-color: #346fa1;
+    width: 90%;
+}
+
+.per_mysql {
+    display: block;
+    background-color: #3c6296;
+    width: 90%;
+}
+
+.per_figma {
+    display: block;
+    background-color: #0acf83;
+    width: 90%;
+}
+
+.per_git {
+    display: block;
+    background-color: #f05033;
+    width: 90%;
+}
+
+.per_office {
+    display: block;
+    background-color: #d83b01;
+    width: 90%;
 }

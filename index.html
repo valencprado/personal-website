@@ -12,6 +12,7 @@
     <link href="./css/styles.css" rel="stylesheet" type="text/css">
     <!--Javascript-->
     <script src='./js/script.js' type='text/javascript'></script>
+    <link rel="shortcut icon" href="./img/arrow-pointer-solid.svg" type="image/x-icon">
 
 </head>
 
@@ -43,8 +44,8 @@
         <div>
             <div>
                 <h1 class="titles">Hello! I'm Valentina</h1>
-                <p id='intro'>Programmer and developer since 2021. My main languages are <span id="php">PHP</span> and <span id="java">Java</span>. I'm also learning <span id="python">Python</span> and
-                    <span id="csharp">C#</span>.
+                <p id='intro'>Programmer and developer since 2021. My main languages are <span class="intro" id="php">PHP</span> and <span class="intro" id="java">Java</span>. I'm also learning <span class="intro" id="python">Python</span> and
+                    <span class="intro" id="csharp">C#</span>.
                 </p>
             </div>
             <button class="btn-outline-warning btn btn-lg "><img src="img/resumepdf.svg"> Resume</button>
@@ -54,79 +55,181 @@
 
     <br />
     <section id="Skills">
-        <h1 class="titles reveal">Skills</h1>
+        <h1 class="titles ">Skills</h1>
         <div class="grid">
-            <div class="content reveal">
+            <div class="content ">
                 <h1 class="titles">FRONT-END</h1>
-
-
+                <br />
+                <div class="skills_titles">
+                    <h3>HTML</h3>
+                    <span class="percentage ">90%</span>
+                </div>
+                <div class="bar">
+                    <span class="per_html inner_percentage"></span>
+                </div>
+                <br />
+                <div class="skills_titles">
+                    <h3>CSS</h3>
+                    <span class="percentage ">80%</span>
+                </div>
+                <div class="bar">
+                    <span class="per_css inner_percentage"></span>
+                </div>
+                <br />
+                <div class="skills_titles">
+                    <h3>Javascript</h3>
+                    <span class="percentage ">75%</span>
+                </div>
+                <div class="bar">
+                    <span class="inner_percentage per_javascript"></span>
+                </div>
+                <br />
+                <div class="skills_titles">
+                    <h3>Bootstrap</h3>
+                    <span class="percentage ">90%</span>
+                </div>
+                <div class="bar">
+                    <span class="inner_percentage per_bootstrap"></span>
+                </div>
             </div>
 
 
-            <div class="content reveal">
+            <div class="content ">
                 <h1 class="titles">BACK-END</h1>
-
+                <div class="skills_titles">
+                    <h3>PHP</h3>
+                    <span class="percentage ">90%</span>
+                </div>
+                <div class="bar">
+                    <span class="per_php  inner_percentage" "></span>
+                </div>
+                <br />
+                <div class="skills_titles ">
+                    <h3>C#</h3>
+                    <span class="percentage ">80%</span>
+                </div>
+                <div class="bar ">
+                    <span class="per_csharp inner_percentage ""></span>
+                </div>
+                <br />
+                <div class="skills_titles">
+                    <h3>Java</h3>
+                    <span class="percentage ">75%</span>
+                </div>
+                <div class="bar">
+                    <span class=" inner_percentage per_java "></span>
+                </div>
+                <br />
+                <div class="skills_titles ">
+                    <h3>Python</h3>
+                    <span class="percentage ">90%</span>
+                </div>
+                <div class="bar ">
+                    <span class="  inner_percentage per_python "></span>
+                </div>
             </div>
 
 
-            <div class="content reveal">
-                <h1 class="titles">OTHERS</h1>
-
+            <div class="content ">
+                <h1 class="titles ">OTHERS</h1>
+                <div class="skills_titles ">
+                    <h3>MySQL</h3>
+                    <span class="percentage ">90%</span>
+                </div>
+                <div class="bar ">
+                    <span class="inner_percentage per_mysql"></span>
+                </div>
+                <br />
+                <div class="skills_titles ">
+                    <h3>Figma</h3>
+                    <span class="percentage ">80%</span>
+                </div>
+                <div class="bar ">
+                    <span class="inner_percentage per_figma"></span>
+                </div>
+                <br />
+                <div class="skills_titles ">
+                    <h3>Git</h3>
+                    <span class="percentage ">75%</span>
+                </div>
+                <div class="bar ">
+                    <span class="inner_percentage per_git"></span>
+                </div>
+                <br />
+                <div class="skills_titles ">
+                    <h3>Office</h3>
+                    <span class="percentage ">90%</span>
+                </div>
+                <div class="bar ">
+                    <span class="inner_percentage per_office"></span>
+                </div>
             </div>
 
 
         </div>
     </section>
     <br />
-    <section id="Projects">
-        <h1 class="titles reveal">Projects</h1>
-        <p class="reveal">Some of the projects made in my course and others from the internet.</p>
+    <section id="Projects ">
+        <div>
+            <h1 class="titles ">Projects</h1>
+            <p class=" ">Some of the projects made in my course and others from the internet.</p>
 
-        <div class="grid ">
-            <a href="https://github.com/valencprado/LojaPHP" target="_blank" class="projects_links">
-                <div class="projects reveal">
-                    <h1 class="titles">PHP Store</h1>
+            <div class=" container ">
+                <div class=" row-cols-lg-4 ">
+                    <a href="https://github.com/valencprado/LojaPHP " target="_blank " class="projects_links ">
+                        <div class="projects col-sm-3 ">
+                            <h1 class="titles ">PHP Store</h1>
+                            <p style="text-align: center; "> <img src="./img/lojaphp.png "></p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/valencprado/pw-js-calculadora " target="_blank " class="projects_links ">
+                        <div class=" projects col-sm-3 ">
+                            <h1 class="titles ">Calculator</h1>
+                            <p style="text-align: center; "> <img src="./img/calculator.png "> </p>
+                        </div>
+                    </a>
 
+                    <a href="https://github.com/valencprado/pw-js-calculadora " target="_blank " class="projects_links ">
+                        <div class="projects col-sm-3 ">
+                            <h1 class="titles projects_links ">Java CRUD</h1>
+                            <p> <img src="./img/java-crud.png "></p>
+                            <p class="projects_text ">teste</p>
+                        </div>
+
+                    </a>
+                    <a href="https://github.com/valencprado/python-exercises " target="_blank " class="projects_links ">
+                        <div class="projects col-sm-3 ">
+                            <h1 class="titles projects_links ">Python Exercises</h1>
+                            <p style="text-align: center; "> <img src="./img/python-exercises.png "></p>
+                        </div>
+                    </a>
+                    <!-- <a href="https://github.com/valencprado/niver-luis " target="_blank ">
+                    <div class="projects ">
+                        <h1 class="titles projects_links ">Anniversary!</h1>
+                    </div>
+                </a>
+                <a href="https://github.com/valencprado/to-do-list-js " target="_blank ">
+                    <div class="projects ">
+                        <h1 class="titles ">To-do list</h1>
+                    </div>
+                </a>
+                -->
                 </div>
-            </a>
-            <a href="https://github.com/valencprado/pw-js-calculadora" target="_blank" class="projects_links">
-                <div class=" projects reveal">
-                    <h1 class="titles">Calculator</h1>
-
-                </div>
-            </a>
-
-            <a href="https://github.com/valencprado/pw-js-calculadora" target="_blank" class="projects_links">
-                <div class="projects reveal">
-                    <h1 class="titles">Java CRUD</h1>
-
-                </div>
-            </a>
-            <a href="https://github.com/valencprado/python-exercises" target="_blank" class="projects_links">
-                <div class="projects reveal">
-                    <h1 class="titles projects_links">Python Exercises</h1>
-
-                </div>
-            </a>
+            </div>
         </div>
 
-        <section id="About">
-            <h1 class="titles reveal">About me!</h1>
+        <section id="About ">
+            <h1 class="titles ">About me!</h1>
 
-            <br />
-            <!--<div class="row">
-                <div class="content ">
-                    <h1 class="titles">Brazilian High School</h1>
-                </div>
-                <div class="content">
-                    <h1 class="titles">System Development - Tech Course</h1>
-                </div>
-            </div>-->
+            <p>I have been programming since the beginnning of 2021, when I began a technical course at Profº Basilides de Godoy. </p>
+
         </section>
 
     </section>
 
-
+    <footer>
+        Developed by <a href="https://github.com/valencprado/personal-website " class="footer_link " target="_blank ">Valen</a>.
+    </footer>
 </body>
 
 </html>

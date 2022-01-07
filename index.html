@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
+    <title>Valentina Prado - Personal Website</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
@@ -15,6 +15,7 @@
     <link href="./css/styles.css" rel="stylesheet" type="text/css">
     <!--Javascript-->
     <script src='./js/script.js' type='text/javascript'></script>
+    <script src='./js/languages.js' type='text/javascript'></script>
     <link rel="shortcut icon" href="./img/arrow-pointer-solid.svg" type="image/x-icon">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,46 +28,56 @@
 
 <body>
 
+    <header>
+        <nav id="navbar" class="navbar">
+            <div class="container-fluid">
+                <div class="hamburgui">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                </div>
 
-    <nav id="navbar" class="navbar">
-        <div class="container-fluid">
-            <ul class="navbar-nav  pull-right flex-row">
+                <ul class="navbar-nav  navbarnav flex-row">
 
-                <li class="nav-item"><a class="navbar_link" href="#home">Home </a></li>
-                &nbsp; &nbsp;
-                <li class="mx-2 nav-item"><a class="navbar_link" href="#Skills">Skills</a></li>
-                &nbsp;
-                <li class="mx-2 nav-item"><a class="navbar_link" href="#Projects">Projects</a></li>
-                &nbsp;
-                <li class="mx-2 nav-item"><a class="navbar_link" href="#About">About me</a></li>
-            </ul>
-            <select>
-    <option value="ENGLISH">EN 🇺🇸</option>
-    <option value="PORTUGUESE">PT 🇧🇷</option>
-    <option value="ITALIAN">IT 🇮🇹</option>
-</select>
-        </div>
-    </nav>
+                    <li class="nav-item  navitem" id="1"><a class="navbar_link" href="/">Home</a></li>
+                    &nbsp; &nbsp;
+                    <li class="mx-2 nav-item navitem" id="2"><a class="navbar_link" href="#Skills">Skills</a></li>
+                    &nbsp;
+                    <li class="mx-2 nav-item navitem" id="3"><a class="navbar_link" href="#Projects">Projects</a></li>
+                    &nbsp;
+                    <li class="mx-2 nav-item navitem" id="4"><a class="navbar_link" href="#About">About me</a></li>
+                    <select id="selectIdioms">
+                        <a href="#eng" language="ENGLISH"><option value="ENGLISH">EN 🇺🇸</option></a>
+                       <a href="#pt" language="PORTUGUESE"> <option value="PORTUGUESE">PT 🇧🇷</option></a>
+                      
+                    </select>
+                </ul>
 
 
-    <section id="home">
-        <div>
-            <div>
-                <h1 class="titles first">Hello! I'm Valentina</h1>
-                <p id='intro'>Programmer and developer since 2021. My main languages are <span class="intro" id="php">PHP</span> and <span class="intro" id="java">Java</span>. I'm also learning <span class="intro" id="python">Python</span> and
-                    <span class="intro" id="csharp">C#</span>.
-                </p>
             </div>
-            <a href="./cv/cv_english.pdf" target="_blank">
-                <button class="btn-outline-warning btn btn-lg "><img src="img/resumepdf.svg"> Resume</button>
-            </a>
-            <br /> <br /> <br />
+        </nav>
+    </header>
+
+    <section id="home" class="background">
+
+        <div>
+            <h1 class="titles" id="introtitle">Hi! I'm Valentina :)</h1>
+
+            <p id='intro-paragraph'>Programmer and developer since 2021. My main languages are <span class="intro" id="php">PHP</span> and <span class="intro" id="java">Java</span>. I'm also learning <span class="intro" id="python">Python</span> and
+                <span class="intro" id="csharp">C#</span>.
+            </p>
+
+        </div>
+        <a href="./cv/Valentina Prado CV - English.pdf" target="_blank">
+            <button class="btn-outline-warning btn btn-lg" style="padding-left: 10px;"><img src="img/resumepdf.svg"> Resume</button>
+        </a>
+        <br /> <br /> <br />
     </section>
 
 
     <br />
     <section id="Skills">
-        <h1 class="titles ">Skills</h1>
+        <h1 class="titles" id="skills-title">Skills</h1>
         <div class="grid">
             <div class="content">
                 <h1 class="titles">FRONT-END</h1>
@@ -144,7 +155,7 @@
 
 
             <div class="content">
-                <h1 class="titles ">OTHERS</h1>
+                <h1 class="titles" id="skills-others">OTHERS</h1>
                 <br />
                 <div class="skills_titles ">
                     <h3>MySQL <img src="./img/mysql.svg"></h3>
@@ -180,58 +191,59 @@
             </div>
 
 
+
         </div>
     </section>
     <br />
     <section id="Projects">
         <div>
-            <h1 class="titles">Projects</h1>
-            <p>Some of the projects made in my course and others from the internet.</p>
+            <h1 class="titles" id="projects-title">Projects</h1>
+            <p>Some of the projects made in my course and others from the internet. Click to see the repository.</p>
 
             <div class="grid">
 
                 <a href="https://github.com/valencprado/LojaPHP " target="_blank " class="projects_link ">
-                    <div class="projects ">
-                        <h1 class="titles ">PHP Store</h1>
-                        <p style="text-align: center; "> <img src="./img/lojaphp.png "></p>
-                        <p class="projects_text">Album store made with PHP, HTML, CSS, Javascript, Bootstrap and database (MySQL).</p>
+                    <div class="projects" id="projects-php">
+                        <h1 class="titles" id="projects-name">PHP Store</h1>
+                        <p id="projects-image" style="text-align: center; " class="img_projects"> <img src="./img/lojaphp.png "></p>
+                        <p class="projects-text">Album store made with PHP, HTML, CSS, Javascript, Bootstrap and database (MySQL).</p>
                     </div>
                 </a>
                 <a href="https://github.com/valencprado/pw-js-calculadora " target="_blank " class="projects_link ">
-                    <div class=" projects">
-                        <h1 class="titles ">Calculator</h1>
-                        <p style="text-align: center;"> <img src="./img/calculator.png "> </p>
-                        <p class="projects_text">A simple Javascript calculator. </p>
+                    <div class=" projects" id="projects-calculator">
+                        <h1 class="titles" id="projects-name">Calculator</h1>
+                        <p class="img_projects" style="text-align: center;"> <img src="./img/calculator.png "> </p>
+                        <p class="projects-text">A simple Javascript calculator. </p>
                     </div>
                 </a>
 
                 <a href="https://github.com/valencprado/pw-js-calculadora " target="_blank " class="projects_link ">
-                    <div class="projects">
-                        <h1 class="titles projects_link ">Java CRUD</h1>
-                        <p> <img src="./img/java-crud.png "></p>
-                        <p class="projects_text">Java CRUD from a vegan restaurant.</p>
+                    <div class="projects" id="projects-java">
+                        <h1 class="titles projects_link" id="projects-name">Java CRUD</h1>
+                        <p style="text-align: center;"> <img class="img_projects" src="./img/java-crud.png "></p>
+                        <p class="projects-text">Java CRUD from a vegan restaurant.</p>
                     </div>
 
                 </a>
                 <a href="https://github.com/valencprado/python-exercises " target="_blank " class="projects_link ">
-                    <div class="projects">
-                        <h1 class="titles projects_link ">Python Exercises</h1>
-                        <p style="text-align: center; "> <img src="./img/python-exercises.png "></p>
-                        <p class="projects_text">Basic python exercises from the "Curso em Vídeo" python course.</p>
+                    <div class="projects" id="projects-python">
+                        <h1 class="titles projects_link" id="projects-name">Python Exercises</h1>
+                        <p style="text-align: center; " class="img_projects"> <img src="./img/python-exercises.png "></p>
+                        <p class="projects-text">Basic python exercises from the "Curso em Vídeo" python course.</p>
                     </div>
                 </a>
                 <a href="https://github.com/valencprado/niver-luis" target="_blank " class="projects_link ">
-                    <div class="projects">
-                        <h1 class="titles projects_link ">Gift Cart</h1>
-                        <p style="text-align: center; "> <img src="./img/niver-luis.png "></p>
-                        <p class="projects_text">Web gift card created to a friend with, HTML, CSS and Javascript.</p>
+                    <div class="projects" id="projects-gift">
+                        <h1 class="titles projects_link" id="projects-name">Gift Cart</h1>
+                        <p style="text-align: center; " class="img_projects"> <img src="./img/niver-luis.png "></p>
+                        <p class="projects-text">Web gift card created to a friend with, HTML, CSS and Javascript.</p>
                     </div>
                 </a>
                 <a href="https://github.com/valencprado/to-do-list-js " target="_blank " class="projects_link ">
-                    <div class="projects">
-                        <h1 class="titles projects_link ">To do List</h1>
-                        <p style="text-align: center; "> <img src="./img/to-do-js.png "></p>
-                        <p class="projects_text">A to-do-list create in order to improve Javascript skills.</p>
+                    <div class="projects" id="projects-todo">
+                        <h1 class="titles projects_link" id="projects-name">To do List</h1>
+                        <p style="text-align: center; " class="img_projects"> <img src="./img/to-do-js.png "></p>
+                        <p class="projects-text">A to-do-list create in order to improve Javascript skills.</p>
                     </div>
                 </a>
             </div>
@@ -239,20 +251,29 @@
 
 
         <section id="About">
-            <h1 class="titles ">About me!</h1>
 
-            <p>I have been programming since the beginnning of 2021, when I began a technical course at Profº Basilides de Godoy. </p>
+            <h1 class="titles" id="about-title">About me!</h1>
+            <div class="grid ">
+                <div>
+                    <h3>I am a seventeen years old brazilian! 🇧🇷 </h3>
 
-            <a href="mailto:valentinacorradiniprado@gmail.com" target="_blank"><button class="btn  btn-md btn-contact "><img src="./img/gmail.svg"> Contact</button></a>
-            <a href="https://github.com/valencprado" target="_blank"> <button class="btn btn-md btn-dark"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>Repositories</button></a>
-            <a href="www.linkedin.com/in/valentinacprado"> <button class="btn btn-md btn-primary"><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"/>Linkedin Profile</button></a>
+                    <p class="about-paragraphs">I started programming in a technical course at Profº Basilides de Godoy, in Brazil. Since then, I started to love developing, specially websites.</p>
+                    <br />
+                    <p class="about-paragraphs">Outside the computer, I enjoy listening to music, playing instruments and soccer, and hanging out with friends and family!</p>
+                    <br />
+                    <a href="mailto:valentinacorradiniprado@gmail.com" target="_blank"><button class="btn  btn-md btn-contact" id="button-email"><img src="./img/gmail.svg"> Contact</button></a>
+                    <a href="https://github.com/valencprado" target="_blank"> <button class="btn btn-md btn-dark" id="button-githubo"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>Repositories</button></a>
+                    <a href="https://www.linkedin.com/in/valentinacprado" target="_blank"> <button class="btn btn-md btn-primary" id="button-linkedin"><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"/>Linkedin Profile</button></a>
+                </div>
+                <div>
+                    <p style="text-align: right; margin: 0; padding: 0; width: 250px;"><img src="./img/85965282.jfif" style="border-radius: 100px; float: right;"></p>
+                </div>
+            </div>
         </section>
 
-    </section>
-
-    <footer>
-        Developed by <a href="https://github.com/valencprado/personal-website " class="footer_link " target="_blank ">Valen</a>.
-    </footer>
+        <footer style="height: 5vh;">
+            Developed by <a href="https://github.com/valencprado/personal-website " class="footer_link " target="_blank ">Valen</a>.
+        </footer>
 </body>
 
 </html>

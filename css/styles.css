@@ -22,10 +22,8 @@
 
 #home {
     padding-top: 5rem;
-}
-
-.background {
-    height: 580px;
+    height: 90vh;
+    background-color: #020202;
 }
 
 #navbar {
@@ -183,7 +181,7 @@ select {
 
 .footer_link {
     position: relative;
-    color: #4d5b96;
+    color: #390091;
     text-decoration: none;
 }
 
@@ -213,7 +211,11 @@ select {
 }
 
 footer {
-    background-color: rgb(30, 29, 29);
+    text-align: center;
+    background-color: #656565;
+    overflow: hidden;
+    color: #000;
+    font-weight: bold;
 }
 
 .container {
@@ -326,6 +328,7 @@ footer {
 p,
 h3 {
     font-family: 'Lato', sans-serif;
+    padding-left: 10px;
 }
 
 
@@ -371,6 +374,7 @@ img {
     width: 540px;
     text-align: justify;
     padding-left: 10px;
+    font-size: 17px;
 }
 
 .img-projects {
@@ -392,4 +396,9 @@ img {
 
 .img-projects:hover img {
     transform: scale(1.5);
+}
+
+#intro-paragraph {
+    max-width: 100%;
+    overflow: hidden;
 }

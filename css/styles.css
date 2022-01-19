@@ -62,8 +62,11 @@ img {
     transition: top 0.3s;
     font-family: 'Lato', sans-serif;
     padding: 20px 20px;
+    overflow-x: hidden;
 }
-
+.navbar-nav{
+    flex-direction: row;
+}
 .navbar_link {
     position: relative;
     color: #fff;
@@ -197,7 +200,7 @@ select {
     text-align: justify;
     padding-left: 10px;
     font-size: 17px;
-    max-width: 100%;
+    max-width: 100vw;
     overflow: hidden;
 }
 
@@ -337,6 +340,7 @@ select {
     left: 524px;
     top: 316px;
     background: #0d0c0a;
+    max-width: 100vw;
 }
 .projects_link {
     color: inherit;

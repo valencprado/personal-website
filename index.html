@@ -12,7 +12,7 @@
     <!-- Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--CSS-->
-    <link href="./css/styles.css" rel="stylesheet" type="text/css">  
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="./img/arrow-pointer-solid.svg" type="image/x-icon">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,45 +30,46 @@
 </head>
 
 <body>
-    
-        <header class="header">
-            <nav id="navbar" class="navbar">
-               
-                <div class="container-fluid">
-                    
 
-                    <ul class="navbar-nav nav-list ">
-
-                        <li class="nav-item"><a class="navbar_link" href="/">Home</a></li>
-                        &nbsp; &nbsp;
-                        <li class="mx-2 nav-item"><a class="navbar_link" href="#Skills ">Skills</a></li>
-                        &nbsp;
-                        <li class="mx-2 nav-item"><a class="navbar_link " href="#Projects ">Projects</a></li>
-                        &nbsp;
-                        <li class="mx-2 nav-item"><a class="navbar_link " href="#About ">About me</a></li>
-                        <li>
-                        <select id="selectIdioms ">
-                            <a href="#eng " language="ENGLISH ">
-                                <option value="ENGLISH ">EN 🇺🇸</option>
-                            </a>
-                            <a href="#pt " language="PORTUGUESE ">
-                                <option value="PORTUGUESE ">PT 🇧🇷</option>
-                            </a>
-
-                        </select>
-                    </li>
-                    </ul>
+    <header class="header">
+        <nav id="navbar" class="navbar">
 
 
-                </div>
-                <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
-            </nav>
-        </header>
-    
+
+
+            <ul class="navbar-nav nav-list ">
+
+                <li class="mx-2 nav-item"><a class="navbar_link" href="/">Home</a></li>
+                <li class="mx-2 nav-item"><a class="navbar_link " href="#About ">About me</a></li>
+                <li class="mx-2 nav-item"><a class="navbar_link" href="#Skills ">Skills</a></li>
+
+                <li class="mx-2 nav-item"><a class="navbar_link " href="#Projects ">Projects</a></li>
+
+
+                <li class="mx-2 nav-item"><a class="navbar_link " href="#Contact ">Contact</a></li>
+                <li>
+                    <select id="selectIdioms ">
+                        <a href="#eng " language="ENGLISH ">
+                            <option value="ENGLISH ">EN 🇺🇸</option>
+                        </a>
+                        <a href="#pt " language="PORTUGUESE ">
+                            <option value="PORTUGUESE ">PT 🇧🇷</option>
+                        </a>
+
+                    </select>
+                </li>
+            </ul>
+
+
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
     <section id="home">
 
 
@@ -97,7 +98,35 @@
     </section>
 
 
-    <br />    <br />    <br />
+    <br /> <br /> <br />
+    <section id="About" style="background-color: #020202; height: 100vh;">
+
+        <h1 class=" titles reveal " id=" about-title ">About me!</h1>
+        <div class=" grid reveal ">
+            <div>
+                <p><img src=" ./img/85965282.jfif " style=" border-radius: 100px; "></p>
+            </div>
+
+
+            <div>
+                <h3>I am a seventeen years old brazilian! 🇧🇷 </h3>
+                <br />
+                <p class=" about-paragraphs ">I started programming in a technical course at <strong>Profº Basilides de
+                        Godoy</strong>, in Brazil. Since then, I started to love developing, specially websites.</p>
+
+                <p class=" about-paragraphs ">Outside the computer, I enjoy listening to music, playing instruments and soccer, and hanging out with friends and family!</p>
+                <br />
+
+
+                <a href=" https://www.linkedin.com/in/valentinacprado " target=" _blank "> <button class=" btn btn-md btn-white " id=" button-linkedin "><img
+                            src=" https://img.icons8.com/ios-glyphs/30/000000/linkedin.png " />Linkedin
+                        Profile</button></a>
+            </div>
+
+        </div>
+
+        <br /> <br /> <br />
+    </section>
     <section id="Skills">
         <h1 class="titles reveal " id="skills-title ">Skills</h1>
         <div class="grid ">
@@ -279,40 +308,21 @@
 <br />
     </section>
 
-    <section id="About ">
-
-        <h1 class=" titles reveal " id=" about-title ">About me!</h1>
-        <div class=" grid reveal ">
-            <div>
-                <p><img src=" ./img/85965282.jfif " style=" border-radius: 100px; "></p>
-            </div>
-
-
-            <div>
-                <h3>I am a seventeen years old brazilian! 🇧🇷 </h3>
-                <br />
-                <p class=" about-paragraphs ">I started programming in a technical course at <strong>Profº Basilides de Godoy</strong>, in Brazil. Since then, I started to love developing, specially websites.</p>
-
-                <p class=" about-paragraphs ">Outside the computer, I enjoy listening to music, playing instruments and soccer, and hanging out with friends and family!</p>
-                <br />
-                <a href=" mailto:valentinacorradiniprado@gmail.com " target=" _blank "><button class=" btn btn-md btn-white " id=" button-email "><img src=" ./img/gmail.svg "> Send me an email!</button></a>
-
-                <a href=" https://www.linkedin.com/in/valentinacprado " target=" _blank "> <button class=" btn btn-md btn-primary " id=" button-linkedin "><img src=" https://img.icons8.com/ios-glyphs/30/000000/linkedin.png "/>Linkedin Profile</button></a>
-            </div>
-
-        </div>
+   <section id=" Contact ">
+                        <h2 class="titles ">Contact</h2>
     </section>
 
     <footer>
-        Developed by <a href=" https://github.com/valencprado/ " class=" footer_link " target=" _blank ">Valen</a> :) | Go back to
+        Developed by <a href=" https://github.com/valencprado/ " class=" footer_link " target=" _blank ">Valen</a> :) |
+        Go back to
         <a href=" / " class=" footer_link ">top
-                </a>.
+        </a>.
 
     </footer>
-      <!--Javascript-->
+    <!--Javascript-->
     <script src='./js/script.js' type='text/javascript'></script>
     <script src='./js/languages.js' type='text/javascript'></script>
-    <script src="./js/mobile-navbar.js"></script>
+    <script src="./js/mobile-navbar.js "></script>
 </body>
 
 </html>

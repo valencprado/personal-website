@@ -78,7 +78,6 @@ img {
     transition: top 0.3s;
     font-family: 'Lato', sans-serif;
     padding: 20px 20px;
-    position: fixed;
 }
 
 .navbar-nav {

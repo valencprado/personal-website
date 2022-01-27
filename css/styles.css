@@ -78,7 +78,7 @@ img {
     transition: top 0.3s;
     font-family: 'Lato', sans-serif;
     padding: 20px 20px;
-    overflow-x: hidden;
+    position: fixed;
 }
 
 .navbar-nav {
@@ -89,6 +89,7 @@ img {
     position: relative;
     color: #fff;
     text-decoration: none;
+    background-color: #030303;
 }
 
 .navbar_link:before {
@@ -243,7 +244,7 @@ select {
 .titles {
     text-align: center;
     color: #FFF;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik', sans-serif, 'Roboto Mono', monospace;
 }
 
 .about-paragraphs,

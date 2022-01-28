@@ -163,6 +163,7 @@ select {
     }
     .mobile-menu {
         display: block;
+        overflow-x: hidden;
     }
     .navbar-brand {
         display: none;

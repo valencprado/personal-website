@@ -84,6 +84,10 @@ img {
     flex-direction: row;
 }
 
+.navbar-brand {
+    font-size: 30px;
+}
+
 .navbar_link {
     position: relative;
     color: #fff;
@@ -372,13 +376,13 @@ select {
 .per_git {
     display: block;
     background-color: #f05033;
-    width: 75%;
+    width: 90%;
 }
 
 .per_office {
     display: block;
     background-color: #d83b01;
-    width: 90%;
+    width: 80%;
 }
 
 
@@ -406,6 +410,10 @@ select {
     color: rgb(176, 175, 175);
     text-align: center;
     text-decoration: none;
+}
+
+.projects-footer {
+    float: right;
 }
 
 
@@ -444,10 +452,10 @@ select {
 
 footer {
     text-align: center;
-    background-color: #656565;
+    background-color: #030303;
     overflow: hidden;
-    color: #000;
-    font-weight: bold;
+    color: #FFF;
+    padding: 40px 40px;
 }
 
 
@@ -456,9 +464,4 @@ footer {
 .btn-white {
     background-color: white;
     color: #000;
-}
-
-.btn-white:hover {
-    color: #000;
-    font-weight: bold;
 }

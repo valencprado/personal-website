@@ -164,6 +164,9 @@ select {
     .mobile-menu {
         display: block;
     }
+    .navbar-brand {
+        display: none;
+    }
 }
 
 .nav-list.active {

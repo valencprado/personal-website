@@ -279,6 +279,10 @@ select {
 
 /*   SKILLS   */
 
+.code {
+    color: #ffc107;
+}
+
 .skills_titles {
     margin-left: 10px;
     display: flex;
@@ -425,7 +429,7 @@ select {
 
 .footer_link {
     position: relative;
-    color: #390091;
+    color: #5b08d8;
     text-decoration: none;
 }
 

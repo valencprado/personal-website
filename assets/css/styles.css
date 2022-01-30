@@ -170,14 +170,6 @@ select {
     }
 }
 
-#btn-translate {
-    width: 60px;
-    border-radius: 15px;
-    background-color: #0d0c0a;
-    color: #FFF;
-    border: none;
-}
-
 .nav-list.active {
     transform: translateX(0);
 }

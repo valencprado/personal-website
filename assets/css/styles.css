@@ -465,6 +465,7 @@ footer {
     overflow: hidden;
     color: #FFF;
     padding: 40px 40px;
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -473,4 +474,8 @@ footer {
 .btn-white {
     background-color: white;
     color: #000;
+}
+
+.btn {
+    font-family: 'Rubik', sans-serif;
 }

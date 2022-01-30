@@ -43,7 +43,7 @@ h3 {
 }
 
 img {
-    max-width: 100%;
+    max-width: 95vw;
 }
 
 
@@ -260,7 +260,7 @@ select {
     text-align: justify;
     padding-left: 10px;
     font-size: 17px;
-    max-width: 100vw;
+    max-width: 95vw;
     overflow: hidden;
 }
 

@@ -306,6 +306,7 @@ select {
     background: #0d0c0a;
     transition: 0.4s ease-out 0s;
     border-radius: 10px;
+    max-width: 90%;
 }
 
 .content:hover {
@@ -410,7 +411,7 @@ select {
     left: 524px;
     top: 316px;
     background: #0d0c0a;
-    max-width: 100vw;
+    max-width: 90vw;
 }
 
 .projects_link {

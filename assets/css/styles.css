@@ -86,7 +86,6 @@ img {
 
 .navbar-nav {
     flex-direction: row;
-    float: right;
 }
 
 .navbar-brand {
@@ -127,6 +126,7 @@ img {
 
 .nav-list {
     overflow-x: hidden;
+    float: right;
 }
 
 

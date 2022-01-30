@@ -23,6 +23,10 @@
 
 /*   BODY   AND TAGS*/
 
+html {
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -78,6 +82,7 @@ img {
     transition: top 0.3s;
     font-family: 'Lato', sans-serif;
     padding: 20px 20px;
+    position: relative;
 }
 
 .navbar-nav {
@@ -120,10 +125,8 @@ img {
     color: #ffc107;
 }
 
-select {
-    background: #030303;
-    color: #FFFFFF;
-    border-radius: 20px;
+.nav-list {
+    overflow-x: hidden;
 }
 
 
@@ -278,6 +281,10 @@ select {
 
 
 /*   SKILLS   */
+
+#skills {
+    margin-top: 30px;
+}
 
 .code {
     color: #ffc107;

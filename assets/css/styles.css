@@ -82,11 +82,11 @@ img {
     transition: top 0.3s;
     font-family: 'Lato', sans-serif;
     padding: 20px 20px;
-    position: relative;
 }
 
 .navbar-nav {
     flex-direction: row;
+    float: right;
 }
 
 .navbar-brand {

@@ -324,6 +324,7 @@ img {
 .inner_percentage {
     height: 5px;
     border-radius: .25rem;
+   
 }
 
 .bar {
@@ -333,73 +334,61 @@ img {
 .per_html {
     display: block;
     background-color: #f15930;
-    width: 90%;
 }
 
 .per_css {
     display: block;
     background-color: #0e7dc2;
-    width: 80%;
 }
 
 .per_javascript {
     display: block;
     background-color: #f68133;
-    width: 75%;
 }
 
 .per_bootstrap {
     display: block;
     background-color: #7611f5;
-    width: 90%;
 }
 
 .per_php {
     display: block;
     background-color: #4d5b96;
-    width: 90%;
 }
 
 .per_csharp {
     display: block;
     background-color: #6f49ac;
-    width: 90%;
 }
 
 .per_java {
     display: block;
     background-color: #e26d00;
-    width: 90%;
 }
 
 .per_python {
     display: block;
     background-color: #346fa1;
-    width: 65%;
 }
 
 .per_mysql {
     display: block;
     background-color: #3c6296;
-    width: 90%;
 }
 
 .per_figma {
     display: block;
     background-color: #0acf83;
-    width: 80%;
 }
 
 .per_git {
     display: block;
     background-color: #f05033;
-    width: 90%;
 }
 
 .per_office {
     display: block;
     background-color: #d83b01;
-    width: 80%;
 }
 
 

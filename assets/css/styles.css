@@ -241,6 +241,7 @@ img {
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
+    margin-top: 100px;
     animation: typing 3.5s steps(30, end)
 }
 
@@ -257,6 +258,7 @@ img {
     text-align: center;
     color: #FFF;
     font-family: 'Rubik', sans-serif, 'Roboto Mono', monospace;
+    margin-top: 100px;
 }
 
 .about-paragraphs,

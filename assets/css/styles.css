@@ -23,6 +23,13 @@
 
 /*   BODY   AND TAGS*/
 
+<<<<<<< HEAD
+=======
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+>>>>>>> be1b9e3f52260c0ef47490030ff947189ac7458d
 
 * {
     margin: 0;

@@ -330,7 +330,7 @@ img {
 .inner_percentage {
     height: 5px;
     border-radius: .25rem;
-   
+    display: block;
 }
 
 .bar {
@@ -338,65 +338,61 @@ img {
 }
 
 .per_html {
-    display: block;
     background-color: #f15930;
 }
 
 .per_css {
-    display: block;
     background-color: #0e7dc2;
 }
 
 .per_javascript {
-    display: block;
     background-color: #f68133;
 }
 
 .per_bootstrap {
-    display: block;
     background-color: #7611f5;
+}
+.per_reactjs{
+    background-color: #00D8FF;
 }
 
 .per_php {
-    display: block;
     background-color: #4d5b96;
 }
 
 .per_csharp {
-    display: block;
     background-color: #6f49ac;
 }
 
 .per_java {
-    display: block;
     background-color: #e26d00;
 }
 
 .per_python {
-    display: block;
     background-color: #346fa1;
+}
+.per_dotnet {
+    background-color: #9747FF;
 }
 
 .per_mysql {
-    display: block;
     background-color: #3c6296;
 }
 
 .per_figma {
-    display: block;
     background-color: #0acf83;
 }
 
 .per_git {
-    display: block;
     background-color: #f05033;
 }
 
 .per_office {
-    display: block;
     background-color: #d83b01;
 }
-
+.per_networks {
+    background-color: #699BF7;
+}
 
 /*   PROJECTS   */
 

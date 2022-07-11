@@ -1,28 +1,4 @@
-/*.container {
-    height: 25px;
-    background-color: #CCC;
-    position: relative;
-}
-
-.container .progress-bar {
-    position: absolute;
-    height: 100%;
-    background-color: #0fd439;
-    animation: progress-animation 5s;
-}
-
-@keyframes progress-animation {
-    0% {
-        width: 0%;
-    }
-    100% {
-        width: 100%
-    }
-}*/
-
-
 /*   BODY   AND TAGS*/
-
 
 * {
     margin: 0;
@@ -51,7 +27,6 @@ img {
     max-width: 95%;
 }
 
-
 /*      SCROLL BAR      */
 
 ::-webkit-scrollbar {
@@ -71,7 +46,6 @@ img {
 ::selection {
     background: #fcc726
 }
-
 
 /*   NAVBAR   */
 
@@ -131,7 +105,6 @@ img {
     overflow-x: hidden;
     float: right;
 }
-
 
 /*   RESPONSIVE NAVBAR   */
 
@@ -201,7 +174,6 @@ img {
     transform: rotate(45deg) translate(-5px, -7px);
 }
 
-
 /*   REVEAL ANIMATION   */
 
 .reveal {
@@ -214,7 +186,6 @@ img {
     transform: translateY(0px);
     opacity: 1;
 }
-
 
 /*   INTRO   */
 
@@ -283,7 +254,6 @@ img {
     text-align: left;
     row-gap: 20px;
 }
-
 
 /*   SKILLS   */
 
@@ -408,6 +378,7 @@ img {
 .projects_link {
     color: inherit;
     text-decoration: inherit;
+    
 }
 
 .projects_link:hover {
@@ -423,7 +394,6 @@ img {
 .projects-footer {
     float: right;
 }
-
 
 /*  FOOTER  */
 
@@ -466,7 +436,6 @@ footer {
     padding: 40px 40px;
     font-family: 'Rubik', sans-serif;
 }
-
 
 /*     BUTTONS     */
 

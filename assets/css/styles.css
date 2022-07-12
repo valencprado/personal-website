@@ -25,7 +25,7 @@ h3 {
 
 img {
     max-width: 95%;
-    max-height: 180px;
+  
 }
 
 /*      SCROLL BAR      */
@@ -390,6 +390,9 @@ img {
     color: rgb(176, 175, 175);
     text-align: center;
     text-decoration: none;
+}
+.projects img{
+    max-height: 190px;
 }
 
 .projects-footer {

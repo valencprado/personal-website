@@ -244,6 +244,17 @@ img {
     overflow: hidden;
 }
 
+.btn-inicio{
+    border: 1px solid #ffd100;
+    color: #bbbbbb;
+}
+.btn-inicio:hover{
+    color: #FFF;
+    background-color: #ffc107;
+    transition: all .35s;
+}
+
+
 .grid {
     margin: 25px 0px;
     display: -webkit-box;
@@ -398,6 +409,8 @@ img {
 .projects-footer {
     float: right;
 }
+
+/*  END  */
 
 /*  FOOTER  */
 

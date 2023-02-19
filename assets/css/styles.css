@@ -234,8 +234,13 @@ img {
     margin-top: 100px;
 }
 
-.about-paragraphs,
 #intro-paragraph {
+    width: 540px;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.about-paragraphs {
     width: 540px;
     text-align: justify;
     padding-left: 10px;

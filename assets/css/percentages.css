@@ -1,0 +1,78 @@
+
+.percentage {
+    margin-left: 10px;
+}
+
+.bar,
+.inner_percentage {
+    height: 5px;
+    border-radius: .25rem;
+    display: block;
+}
+
+.bar {
+    background-color: gray;
+}
+
+.per_html {
+    background-color: #f15930;
+}
+
+.per_css {
+    background-color: #0e7dc2;
+}
+
+.per_javascript {
+    background-color: #f68133;
+}
+
+.per_bootstrap {
+    background-color: #7611f5;
+}
+.per_reactjs{
+    background-color: #00D8FF;
+}
+.per_angular {
+    background-color: #B71C1C;
+}
+
+.per_php {
+    background-color: #4d5b96;
+}
+
+.per_csharp {
+    background-color: #6f49ac;
+}
+
+.per_java {
+    background-color: #e26d00;
+}
+
+.per_python {
+    background-color: #346fa1;
+}
+.per_dotnet {
+    background-color: #9747FF;
+}
+.per_nodejs {
+    background-color: #4CAF50;
+}
+
+.per_mysql {
+    background-color: #3c6296;
+}
+
+.per_figma {
+    background-color: #0acf83;
+}
+
+.per_git {
+    background-color: #f05033;
+}
+
+.per_office {
+    background-color: #d83b01;
+}
+.per_networks {
+    background-color: #699BF7;
+}
